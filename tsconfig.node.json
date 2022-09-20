@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "noEmit": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "lib"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib", "test"]
+}
